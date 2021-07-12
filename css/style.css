@@ -1,0 +1,119 @@
+
+.container{
+    padding: 0 7%;
+}
+.link-btn{
+    background-color: #00eaff;
+    padding: 14px 28px;
+    color: #081158;
+    border: none;
+    border-radius: .25rem;
+}
+
+/*********************
+ header section  
+ ********************/
+ .header{
+    background: #070d59;
+    padding-top: 20px;
+    padding-bottom: 120px;
+    background-image: url("../images/header_bg.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ .navigation{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ .navigation .logo{
+     font-size: 24px;
+     font-weight: 700;
+     color: #fff;
+ }
+ .navigation .menu a{
+     text-decoration: none;
+    padding: 10px 14px;
+    font-size: 14px;
+    color: rgba(255,255,255,.7);
+ }
+
+ .header-details{
+     width: 60%;
+     margin: 0 auto;
+     padding-top: 50px;
+ }
+ .header-details .header-title{
+    font-size: 70px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.header-details p{
+    color: rgba(255,255,255,.7);
+    margin-bottom: 30px;
+}
+
+ .header-details .search{
+    padding: 14px 20px;
+    width: 70%;
+    color: #212529;
+    font-size: 1em;
+    background: none;
+    border: .2px solid #212529;
+ }
+ .header-info{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 40px;
+ }
+ .counter-wrap .number{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+ }
+ .counter-wrap .caption{
+    color: rgba(255,255,255,.5);
+ }
+
+ /* about section  */
+ .places{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 26px;
+    margin-top: -100px;
+ }
+ .place{
+    display: flex;
+    box-shadow: 10px 10px 50px gray;
+    background-color: #fff;
+    padding: 20px 10px;
+    border-radius: .25rem;
+ }
+ .place-img img{
+    width: 90px;
+    padding: 10px;
+ }
+ .place-info h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+ }
+ .place-info p{
+     font-size: 16px;
+     color: #212529;
+ }
+ .place-info a{
+     text-decoration: none;
+    font-size: 11px;
+    color: #000;
+    font-weight: 700;
+    letter-spacing: .1rem;
+ }
+ .place-info .fa-arrow-right{
+    background: #000;
+    color: #fff;
+    padding: 2px;
+    margin-left: 10px;
+ }
